@@ -1,18 +1,20 @@
-This repository contains the design files for the PCB found on Kauil. The
-main motivation behind the desigh of this PCB is to have a platform for
-testing and implementing new hardware easily, this means it should have
-exposed ports for sensing new types of data. Also it should be easy for
-new students joining the team to start developing for it, this is why
-we choosed to use the same development board as a core as the one used
-in the microcontroller (embedded systems) class, the [STM32F3 discovery](http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF254044).
+This repository contains the design files for the PCB found on Kauil. The main motivation behind the desigh of this PCB is to have a platform for testing and implementing new hardware easily. Also it should be easy for new students joining the team to start developing for it, this is why we choosed to use the same development board as a core as the one used in the microcontroller (embedded systems) class, the [STM32F3 discovery](http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF254044).
 
-### Known issues:
+The design files were made using [DipTrace](http://diptrace.com/) which can be downloaded freely for 30 days, or without time limitations but with a 300 pin limitation  (this design contains more than 300 pins).
 
-V2 of the PCB is the one that was manufactured and is found on Kauil, while
-doing the code implementation of it we've found several problems with the
-design that had to be fixed for the system to work, the following list
-explains them, and the fix that was applied, future versions of the board
-should have them fixed.
+## Content of the repository
+
++ **BOM:** This folder contains some spreadsheets with components used for the PCB, costs and suplier links.
++ **Gerbers:** This folder contains the files that were sent to the manufacturer to produce the actual PCB, they were exported from DipTrace.
++ **Lib:** This folder contains library files for DipTrace with all schematic components and PCB patterns used on the PCB, we do not use any external library besides the one provided by DipTrace and the ones found here, so the design is portable.
++ **PCB.dip:** A DipTrace file with the PCB layout and routing.
++ **SchematicDiptrace.dch:** A DipTrace file with the schematic for the PCB, it contains information about logical connections of the board.
+
+In addition to these files, some other pdfs show the design without requiring an installation of DipTrace.
+
+## Known issues:
+
+V2 of the PCB is the one that was manufactured and is found on Kauil, while doing the code implementation of it we've found several problems with the design that had to be fixed for the system to work, the following list explains them, and the fix that was applied, future versions of the board should have them fixed.
 
 * The SDA pin from I2C2 (Used for the MD03 boards) was previously located
   on pin PF0, sadly this pin is occupied by an 8MHz clock signal that comes
