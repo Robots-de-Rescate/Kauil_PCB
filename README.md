@@ -6,7 +6,7 @@ new students joining the team to start developing for it, this is why
 we choosed to use the same development board as a core as the one used
 in the microcontroller (embedded systems) class, the [STM32F3 discovery](http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF254044).
 
-Known issues:
+### Known issues:
 
 V2 of the PCB is the one that was manufactured and is found on Kauil, while
 doing the code implementation of it we've found several problems with the
@@ -32,11 +32,11 @@ should have them fixed.
   sensor chips, the LSM303DLHC and the L3GD20, to leave these pins free 
   for future use we chose to move the encoders to other pins, changes made
   were:
-   
-     PE4 -> PF9
-     PE5 -> PF10
-     PE0 -> PB8
-     PE1 -> PB9
+
+      PE4 -> PF9
+      PE5 -> PF10
+      PE0 -> PB8
+      PE1 -> PB9
 
   (Periherals affected: Encoders and external interrupts for sensors 
    LSM303DLHC and the L3GD20)
