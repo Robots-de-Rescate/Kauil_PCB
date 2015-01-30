@@ -30,7 +30,7 @@ The following diagram shows which pins from the microcontroller are connected to
 it's also important to note the red ports that mark issues found while using the board and how they were fixed,
 for more information on these see (Known Issues)[Known-issues].
 
-!(Logic diagram)[images/logicalDiagram.png]  
+![Logic diagram](images/logicalDiagram.png)  
 [PDF version](images/logicalDiagram.pdf)  
 [Inkscape's svg version](images/logicalDiagram.svg)
 
@@ -42,7 +42,7 @@ Note: We've noticed that sometimes when connecting the battery to the regulator 
 the regulator shuts down maybe due to a high peak current at startup, most of the times disconnecting and
 connecting the battery again fixes this.
 
-!(Power distribution)[images/powerDistribution.png]  
+![Power distribution](images/powerDistribution.png)  
 [PDF version](images/powerDistribution.pdf)  
 [Inkscape's svg version](images/powerDistribution.svg)
 
