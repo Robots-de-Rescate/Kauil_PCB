@@ -28,7 +28,7 @@ but there are also some specific functionalities that should be noted, the is a 
 
 The following diagram shows which pins from the microcontroller are connected to which components on the board,
 it's also important to note the red ports that mark issues found while using the board and how they were fixed,
-for more information on these see (Known Issues)[Known-issues].
+for more information on these see [Known-issues](Known-issues).
 
 ![Logic diagram](images/logicalDiagram.png)  
 [PDF version](images/logicalDiagram.pdf)  
