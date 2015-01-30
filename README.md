@@ -2,6 +2,53 @@ This repository contains the design files for the PCB found on Kauil. The main m
 
 The design files were made using [DipTrace](http://diptrace.com/) which can be downloaded freely for 30 days, or without time limitations but with a 300 pin limitation (this design contains more than 300 pins).
 
+## Design of the PCB
+
+The board is for the most part an interface to the various peripherals available on the STM32F3 microcontroller,
+but there are also some specific functionalities that should be noted, the is a summary of what the PCB has:
+
++ Specific purpose connectors, 2 for the MD03 boards and 2 for the encoders. 
++ Driver circuit for a Buzzer to serve as a low battery alert.
++ Driver circuit to read a button so it can be used as an emergency stop. 
++ Analog multiplexer with a voltage divider to measure the voltage of all 5 batteries connected, plus 2 optional
+  external signals while using just one ADC.
++ 4 SPI connectors (2 of them 5V tolerant), two connectors per SPI peripheral from the microcontroller with the
+  use of CS pins.
++ 4 I2C external connectors, one pair per I2C peripheral on the microcontroller. 2 of them are pulled up to 3.3V
+  while the other two are pulled up to 5V.
++ USB communication directly from the microcontroller.
++ One connector for an I2C to USB interface in case communications get saturated over the microcontroler's USB 
+  port.
++ 3D gyroscope, 3D magnetometer and 3D accelerometer provided by the STM32F3 discovery board.
++ 5 UART ports (4 of them 5V tolerant)
++ 4 ADC pins exposed to connectors to sense data from various sources.
++ All UART, I2C and SPI connectors have GND and power pins according to the supported voltage to ease the 
+  connection of devices with just one connector and one cable.
++ Almost any pin can be set to be a GPIO pin if its specific functionality is not required.
+
+The following diagram shows which pins from the microcontroller are connected to which components on the board,
+it's also important to note the red ports that mark issues found while using the board and how they were fixed,
+for more information on these see (Known Issues)[Known-issues].
+
+!(Logic diagram)[images/logicalDiagram.png]  
+[PDF version](images/logicalDiagram.pdf)  
+[Inkscape's svg version](images/logicalDiagram.svg)
+
+The next diagram shows how the Power sources are distributed within the PCB, care was taken to separate the
+regulators that power up the cameras because they are the components that consume the most power (after the CPU
+which does not appear in the diagram because it has its own battery and is connected directly).
+
+Note: We've noticed that sometimes when connecting the battery to the regulator in which the Hokuyo is connected 
+the regulator shuts down maybe due to a high peak current at startup, most of the times disconnecting and
+connecting the battery again fixes this.
+
+!(Power distribution)[images/powerDistribution.png]  
+[PDF version](images/powerDistribution.pdf)  
+[Inkscape's svg version](images/powerDistribution.svg)
+
+To modify any of these diagrams clone the repository, edit the svg file locally with
+[Inkscape](https://inkscape.org/), update the png and pdf versions and commit the changes.
+
 ## Content of the repository
 
 + **BOM:** This folder contains some spreadsheets with components used for the PCB, costs and suplier links.
