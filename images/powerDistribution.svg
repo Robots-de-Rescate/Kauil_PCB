@@ -27,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="228.97975"
-     inkscape:cy="514.32514"
+     inkscape:cx="437.22457"
+     inkscape:cy="543.14427"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -335,7 +335,7 @@
        inkscape:stockid="Arrow1Mend">
       <path
          transform="scale(0.4) rotate(180) translate(10,0)"
-         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
          id="path6978" />
     </marker>
@@ -1622,7 +1622,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2005,7 +2005,7 @@
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332px;fill:#000000;"
          id="tspan13623">I2C1_3.3V</tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4147-0-0"
        width="19.97897"
        height="10.930467"
@@ -2269,43 +2269,35 @@
          id="rect16312"
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
-    <g
-       id="g6397"
-       transform="translate(-13.947319,43.17409)">
-      <g
-         transform="translate(71.897974,-47.842765)"
-         id="g5833">
-        <rect
-           y="260.33698"
-           x="69.440926"
-           height="13.715172"
-           width="25.470419"
-           id="rect37500"
-           style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <text
-           sodipodi:linespacing="125%"
-           id="text37502"
-           y="265.95602"
-           x="82.177338"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           xml:space="preserve"><tspan
-             style="font-weight:bold;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-             y="265.95602"
-             x="82.177338"
-             id="tspan37504"
-             sodipodi:role="line">U11</tspan><tspan
-             style="font-weight:normal;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-             y="272.12964"
-             x="82.177338"
-             sodipodi:role="line"
-             id="tspan40692">SPI31_5V</tspan><tspan
-             id="tspan37506"
-             style="font-weight:bold;font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-             y="278.30325"
-             x="82.177338"
-             sodipodi:role="line" /></text>
-      </g>
-    </g>
+    <rect
+       y="255.6683"
+       x="127.39158"
+       height="13.715172"
+       width="25.470419"
+       id="rect37500"
+       style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text37502"
+       y="261.28735"
+       x="140.12799"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         y="261.28735"
+         x="140.12799"
+         id="tspan37504"
+         sodipodi:role="line">U11</tspan><tspan
+         style="font-weight:normal;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         y="267.46097"
+         x="140.12799"
+         sodipodi:role="line"
+         id="tspan40692">SPI31_5V</tspan><tspan
+         id="tspan37506"
+         style="font-weight:bold;font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         y="273.63458"
+         x="140.12799"
+         sodipodi:role="line" /></text>
     <g
        id="g5840"
        transform="translate(28.317346,-22.338395)">
@@ -2315,7 +2307,7 @@
          height="13.715172"
          width="25.470419"
          id="rect42425"
-         style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <text
          sodipodi:linespacing="125%"
          id="text42427"
@@ -2339,67 +2331,59 @@
            x="111.81065"
            sodipodi:role="line" /></text>
     </g>
-    <g
-       id="g6918"
-       transform="translate(-0.85908687,8.8882158)">
-      <rect
-         y="128.99023"
-         x="178.49138"
-         height="13.715172"
-         width="28.494228"
-         id="rect5441"
-         style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text5443"
-         y="133.97885"
-         x="192.59502"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-weight:bold;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="133.97885"
-           x="192.59502"
-           id="tspan5445"
-           sodipodi:role="line">U14</tspan><tspan
-           style="font-weight:normal;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="140.15247"
-           x="192.59502"
-           sodipodi:role="line"
-           id="tspan5447">SPI22_3.3V</tspan><tspan
-           id="tspan5449"
-           style="font-weight:bold;font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           y="146.32608"
-           x="192.59502"
-           sodipodi:role="line" /></text>
-    </g>
-    <g
-       id="g6944"
-       transform="translate(-4.6113147,12.330654)">
-      <rect
-         style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect5461"
-         width="29.250181"
-         height="13.715172"
-         x="182.24361"
-         y="97.429237" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="196.7252"
-         y="102.45042"
-         id="text5463"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan5465"
-           x="196.7252"
-           y="102.45042"
-           style="font-weight:bold;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px">U13</tspan><tspan
-           sodipodi:role="line"
-           x="196.7252"
-           y="108.62403"
-           style="font-weight:normal;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
-           id="tspan5469">SPI21_3.3V</tspan></text>
-    </g>
+    <rect
+       style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5441"
+       width="28.494228"
+       height="13.715172"
+       x="177.63229"
+       y="137.87845" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="191.73593"
+       y="142.86707"
+       id="text5443"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5445"
+         x="191.73593"
+         y="142.86707"
+         style="font-weight:bold;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px">U14</tspan><tspan
+         id="tspan5447"
+         sodipodi:role="line"
+         x="191.73593"
+         y="149.04068"
+         style="font-weight:normal;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px">SPI22_3.3V</tspan><tspan
+         sodipodi:role="line"
+         x="191.73593"
+         y="155.21429"
+         style="font-weight:bold;font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         id="tspan5449" /></text>
+    <rect
+       y="109.75989"
+       x="177.63229"
+       height="13.715172"
+       width="29.250181"
+       id="rect5461"
+       style="opacity:0.97000002;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:0.26458332;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5463"
+       y="114.78107"
+       x="192.11389"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:0.97000002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         y="114.78107"
+         x="192.11389"
+         id="tspan5465"
+         sodipodi:role="line">U13</tspan><tspan
+         id="tspan5469"
+         style="font-weight:normal;font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.26458332px"
+         y="120.95468"
+         x="192.11389"
+         sodipodi:role="line">SPI21_3.3V</tspan></text>
     <g
        id="g6361"
        transform="translate(39.015616,-14.188378)">
@@ -2482,7 +2466,7 @@
        xml:space="preserve"
        id="flowRoot5904"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(138.70359,-130.7528)"><flowRegion
+       transform="translate(138.70359,-132.34031)"><flowRegion
          id="flowRegion5906"
          style="text-align:justify;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px"><rect
            id="rect5908"
@@ -2492,7 +2476,7 @@
            y="206.89047"
            style="text-align:justify;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px" /></flowRegion><flowPara
          id="flowPara5910"
-         style="font-size:3.17499995px;text-align:justify;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px">Note: The connection of the connector in red was accidentally ommited while doing the schematic, to get voltage on the power pins a wire must be soldered on the bottom to the 3.3V rail.</flowPara></flowRoot>    <text
+         style="font-size:3.17499995px;text-align:justify;text-anchor:start;fill:#ff0000;stroke-width:0.26458332px">Note: All SPI connectors have the Ground pin disconnected from the GND net on the PCB. A wire needs to be soldered to actually connect them to ground in order to prevent having floating pins.</flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="4.2462826"
@@ -3104,7 +3088,7 @@
        inkscape:connector-curvature="0"
        id="path6974"
        d="m 170.609,130.87941 -6.92337,0"
-       style="fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6976)" />
+       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6976);fill-opacity:1" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6996)"
        d="m 104.03795,249.46949 0,30.33259 -8.276401,0"
