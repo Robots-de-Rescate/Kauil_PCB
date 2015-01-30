@@ -55,7 +55,7 @@ To modify any of these diagrams clone the repository, edit the svg file locally 
 + **Gerbers:** This folder contains the files that were sent to the manufacturer to produce the actual PCB, they were exported from DipTrace.
 + **Lib:** This folder contains library files for DipTrace with all schematic components and PCB patterns used on the PCB, we do not use any external library besides the one provided by DipTrace and the ones found here, so the design is portable.
 + **PCB.dip:** A DipTrace file with the PCB layout and routing.
-+ **PCB.jpg: ** A .jpg image of the PCB for quick reference without requiring DipTrace
++ **PCB.jpg:** A .jpg image of the PCB for quick reference without requiring DipTrace
 + **Schematic.dch:** A DipTrace file with the schematic for the PCB, it contains information about logical connections of the board.
 + **Schematic.jpg:** A .jpg image with the schematics used for the PCB, for easy acces for people that do not have DipTrace.
 
